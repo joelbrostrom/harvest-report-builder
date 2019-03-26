@@ -38,7 +38,7 @@ def string_to_minutes(str):
 	return minutes
 
 def min_to_string(duration):
-		return "%d:%d" % (math.floor((duration/60)), duration%60)
+		return "%d:%02d" % (math.floor((duration/60)), duration%60)
 
 def print_result():
 	os.system("clear")
